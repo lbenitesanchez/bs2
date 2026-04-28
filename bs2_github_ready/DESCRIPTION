@@ -1,0 +1,22 @@
+Package: bs2repro
+Type: Project
+Title: Reproducibility Bundle for BS2 Inference and Diagnostics
+Version: 0.1.0
+Authors@R: c(
+    person("Luis", "Benites", role = c("aut", "cre"), email = "le.benitess@up.edu.pe"),
+    person("Rocío", "Maehara", role = "aut")
+  )
+Description: R code and data for computationally stable inference and diagnostics for the bivariate Birnbaum--Saunders distribution.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2.0)
+Imports:
+    data.table,
+    future,
+    future.apply,
+    parallelly,
+    RhpcBLASctl,
+    ggplot2
+Suggests:
+    renv,
+    testthat

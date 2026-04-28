@@ -1,0 +1,14 @@
+name: bs2
+channels:
+  - conda-forge
+dependencies:
+  - r-base>=4.2
+  - r-data.table
+  - r-future
+  - r-future.apply
+  - r-parallelly
+  - r-rhpcblasctl
+  - r-ggplot2
+  - r-renv
+  - make
+  - git

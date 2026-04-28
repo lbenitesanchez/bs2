@@ -1,0 +1,19 @@
+item,description,primary_script,secondary_script_or_dependency,expected_output
+Table 1,Global estimation summary over expanded estimation grid,scripts/01_estimation_parallel.R,scripts/04_aggregate_results.R,results/tables/estimation_summary.csv
+Table 2,Empirical size at 5 percent nominal level,scripts/02_tests_parallel.R,scripts/04_aggregate_results.R,results/tables/test_rejection_summary.csv
+Figure 1,Empirical power for independence,scripts/05_power_parallel.R,scripts/07_make_figures_publication.R,figures/power_H04.*
+Table 3,BMD ML/MM estimates and confidence intervals,scripts/08_bmd_analysis.R,R/bs2_core.R,results/tables/bmd_estimates.csv
+Table 4,BMD LR score Wald tests and LR bootstrap p-values,scripts/08_bmd_analysis.R,R/bs2_core.R,results/tables/bmd_tests.csv
+Figure 2,BMD Mahalanobis QQ and fitted BS2 contours,scripts/07_make_figures_publication.R,data/bmd.csv,figures/envelope.*; figures/contorno.*
+Table S1,Full empirical power table,scripts/05_power_parallel.R,,results/tables_power_score_fixed/power_rejection_summary.csv
+Figure S1,Cellwise empirical size plots,scripts/02_tests_parallel.R;scripts/04_aggregate_results.R,scripts/07_make_figures_publication.R,figures/size.*
+Table S2,Clean-data stress check,scripts/02_tests_parallel.R,scripts/04_aggregate_results.R,results/tables/test_rejection_summary.csv
+Table S3,LR bootstrap calibration in small-sample stress scenarios,scripts/03_bootstrap_lr_parallel.R,scripts/04_aggregate_results.R,results/tables/bootstrap_summary.csv
+Table S4,Bootstrap GOF and influence simulation,scripts/06_gof_influence_parallel.R,,results/tables_gof_influence/gof_influence_manuscript_summary.csv
+Figure S2,GOF rejection and influence simulation,scripts/06_gof_influence_parallel.R,scripts/07_make_figures_publication.R,figures/gof_influence.*
+Table S5,BMD descriptive summary,data/bmd.csv,scripts/08_bmd_analysis.R,computed from data/bmd.csv
+Figure S3,BS2 versus bivariate lognormal BMD contours,scripts/09_bmd_bs2_lognormal_contours.R,data/bmd.csv,figures/bmd_bs2_vs_lognormal_contours.*
+Table S6,Restricted ML estimates for BMD,scripts/08_bmd_analysis.R,,results/tables/bmd_restricted_fits.csv
+Table S7,Case-deletion diagnostics for BMD,scripts/07_make_figures_publication.R,data/bmd.csv,figures/bmd_case_deletion_values.csv
+Figure S4,Case-deletion influence plot,scripts/07_make_figures_publication.R,data/bmd.csv,figures/bmd_case_deletion.*
+Table S8,Algorithmic benchmark comparing profile and full optimizers,scripts/10_algorithmic_benchmark.R,R/bs2_core.R,results/tables_algorithmic_benchmark/algorithmic_benchmark_summary.csv

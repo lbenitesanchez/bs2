@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and this repository."
+title: "BS2 reproducibility bundle: computationally stable inference and diagnostics for the bivariate Birnbaum-Saunders distribution"
+type: software
+authors:
+  - family-names: Benites
+    given-names: Luis
+    email: le.benitess@up.edu.pe
+  - family-names: Maehara
+    given-names: Rocío
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/lbenitesanchez/bs2"
+keywords:
+  - Birnbaum-Saunders distribution
+  - profile likelihood
+  - parametric bootstrap
+  - Monte Carlo simulation
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "Computationally stable inference and diagnostics for the bivariate Birnbaum-Saunders distribution"
+  authors:
+    - family-names: Benites
+      given-names: Luis
+    - family-names: Maehara
+      given-names: Rocío
+  journal: "Computational Statistics & Data Analysis"
+  year: 2026

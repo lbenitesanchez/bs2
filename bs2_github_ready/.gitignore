@@ -1,0 +1,56 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv local library and cache; keep renv.lock if generated
+renv/library/
+renv/staging/
+renv/sandbox/
+
+# Logs
+logs/*
+!logs/README.md
+!logs/.gitkeep
+
+# Raw Monte Carlo/checkpoint outputs
+results/raw_*/
+results/**/*.rds
+results/**/*.RDS
+
+# Generated tables and figures are reproducible; commit selectively if needed
+results/tables/*.csv
+results/tables_debug/*.csv
+results/tables_quick/*.csv
+results/tables_power_debug/*.csv
+results/tables_gof_debug/*.csv
+results/tables_algorithmic_benchmark_debug/*.csv
+results/tables_power_score_fixed/*.csv
+results/tables_gof_influence/*.csv
+results/tables_algorithmic_benchmark/*.csv
+!results/README.md
+!results/.gitkeep
+!results/tables/.gitkeep
+
+figures/*
+!figures/README.md
+!figures/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# LaTeX build products, if manuscript sources are added later
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
