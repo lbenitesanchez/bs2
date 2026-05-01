@@ -2,7 +2,7 @@
 
 This repository contains the R code and data used for the paper:
 
-**Profile likelihood, sign-based inference and bootstrap diagnostics for the bivariate Birnbaum--Saunders distribution**
+**A reproducible profile-likelihood workflow for inference and diagnostics in the bivariate Birnbaum–Saunders model**
 
 The code implements profiled maximum likelihood, modified-moment estimation, conditional sign pseudo-likelihood, LR/score/Wald/MM-Wald tests, parametric-bootstrap LR calibration, BMD diagnostics, and the Monte Carlo workflows reported in the manuscript and supplement.
 
